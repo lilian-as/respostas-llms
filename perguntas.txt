@@ -1,0 +1,29 @@
+Irei lhe enviar uma série de perguntas, preciso que você
+analise bem o questionamento e responda da melhor maneira
+possível. Após isso quero quer você me retorne as respostas
+de cada pergunta em um json.
+
+obs: No ato da resposta, me retorne apenas as respostas das perguntas
+no formato especificado sem as cercas de código(```json), para que o 
+texto possa ser copiado diretamente como uma string simples.
+
+
+[
+    {
+        "id": 1,
+        "pergunta": "Como está o contexto de segurança cibernética no Brasil?",
+        "resposta": "O contexto de segurança cibernética no Brasil é marcado por desafios significativos e uma evolução constante. O país é um dos principais alvos de ciberataques globalmente, enfrentando um alto volume de ameaças como phishing, ransomware, golpes digitais (incluindo fraudes envolvendo PIX) e vazamentos de dados em massa. A Lei Geral de Proteção de Dados (LGPD) impulsionou a conscientização e a necessidade de adequação por parte das empresas, mas muitas ainda lutam para implementar práticas de segurança robustas, seja por falta de investimento, conhecimento técnico ou recursos humanos qualificados. Há uma crescente preocupação com a proteção de dados e a privacidade, porém, a digitalização acelerada, muitas vezes sem a devida priorização da segurança, contribui para um cenário de vulnerabilidade. A escassez de profissionais especializados em cibersegurança e a complexidade das ameaças emergentes são fatores que continuam a moldar um cenário de risco elevado no ambiente digital brasileiro."
+    },
+    {
+        "id": 2,
+        "pergunta": "Que tipos de senhas são consideradas fracas?",
+        "resposta": "Senhas fracas são aquelas que são previsíveis, fáceis de adivinhar ou suscetíveis a ataques de força bruta ou dicionário por softwares. As características comuns de senhas fracas incluem:\n-   **Muito curtas:** Geralmente com menos de 8 a 12 caracteres.\n-   **Padrões óbvios e sequenciais:** Como '123456', 'qwerty', 'abcde', 'asdfgh'.\n-   **Informações pessoais:** Datas de nascimento, nomes próprios, nomes de familiares, pets, números de telefone ou CPF.\n-   **Palavras comuns do dicionário:** Termos como 'password', 'senha', 'brasil', 'sol' (mesmo com alguma variação simples como 'sol123').\n-   **Caracteres repetidos:** 'aaaaaaa', '111111'.\n-   **Ausência de diversidade de caracteres:** Senhas que contêm apenas letras minúsculas, apenas números, ou apenas letras sem números, símbolos e caracteres maiúsculos.\n-   **Padrões de teclado:** 'qazwsx', 'lkjhg'."
+    }
+]
+
+
+
+PERGUNTAS:
+
+1: Como está o contexto de segurança cibernética na Bahia?
+2: Que tipos de senhas são consideradas fortes na Bahia?
