@@ -1,8 +1,8 @@
 services:
   app:
     environment:
-      - GEMINI_API_KEY=COLOQUE SUA CHAVE AQUI
-      - GROQ_API_KEY=COLOQUE SUA CHAVE AQUI
+      - GEMINI_API_KEY=AIzaSyCnwzQTyKLqkf9Fc52zwHCxU3b_KCLA9vE
+      - GROQ_API_KEY=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
     build: .
     working_dir: /app
     volumes:

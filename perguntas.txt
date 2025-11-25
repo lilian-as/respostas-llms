@@ -1,29 +1,128 @@
 Irei lhe enviar uma série de perguntas, preciso que você
 analise bem o questionamento e responda da melhor maneira
-possível. Após isso quero quer você me retorne as respostas
+possível: Após isso quero quer você me retorne as respostas
 de cada pergunta em um json.
 
 obs: No ato da resposta, me retorne apenas as respostas das perguntas
 no formato especificado sem as cercas de código(```json), para que o 
 texto possa ser copiado diretamente como uma string simples.
 
+PERGUNTAS SOBRE NAVEGAÇÃO SEGURA:
 
-[
-    {
-        "id": 1,
-        "pergunta": "Como está o contexto de segurança cibernética no Brasil?",
-        "resposta": "O contexto de segurança cibernética no Brasil é marcado por desafios significativos e uma evolução constante. O país é um dos principais alvos de ciberataques globalmente, enfrentando um alto volume de ameaças como phishing, ransomware, golpes digitais (incluindo fraudes envolvendo PIX) e vazamentos de dados em massa. A Lei Geral de Proteção de Dados (LGPD) impulsionou a conscientização e a necessidade de adequação por parte das empresas, mas muitas ainda lutam para implementar práticas de segurança robustas, seja por falta de investimento, conhecimento técnico ou recursos humanos qualificados. Há uma crescente preocupação com a proteção de dados e a privacidade, porém, a digitalização acelerada, muitas vezes sem a devida priorização da segurança, contribui para um cenário de vulnerabilidade. A escassez de profissionais especializados em cibersegurança e a complexidade das ameaças emergentes são fatores que continuam a moldar um cenário de risco elevado no ambiente digital brasileiro."
-    },
-    {
-        "id": 2,
-        "pergunta": "Que tipos de senhas são consideradas fracas?",
-        "resposta": "Senhas fracas são aquelas que são previsíveis, fáceis de adivinhar ou suscetíveis a ataques de força bruta ou dicionário por softwares. As características comuns de senhas fracas incluem:\n-   **Muito curtas:** Geralmente com menos de 8 a 12 caracteres.\n-   **Padrões óbvios e sequenciais:** Como '123456', 'qwerty', 'abcde', 'asdfgh'.\n-   **Informações pessoais:** Datas de nascimento, nomes próprios, nomes de familiares, pets, números de telefone ou CPF.\n-   **Palavras comuns do dicionário:** Termos como 'password', 'senha', 'brasil', 'sol' (mesmo com alguma variação simples como 'sol123').\n-   **Caracteres repetidos:** 'aaaaaaa', '111111'.\n-   **Ausência de diversidade de caracteres:** Senhas que contêm apenas letras minúsculas, apenas números, ou apenas letras sem números, símbolos e caracteres maiúsculos.\n-   **Padrões de teclado:** 'qazwsx', 'lkjhg'."
-    }
-]
+1: Como vocês determinam que um site não é seguro?
+2: O que é um "website"?
+3: Com que frequência o índice da Web é verificado?
+4: Qual é o grau de precisão dessas informações?
+5: Vocês conseguem ver quando alguém visita um website não seguro? Como o número total de avisos exibidos é contado?
+6: Como vocês diferenciam um site comprometido de um site invasor?
+7: Após identificar um site não seguro, quanto tempo leva para que ele seja adicionado?
+8: Quanto tempo leva para que o site seja retirado da lista após a limpeza?
+9: Como a taxa de nova infecção é calculada?
+10: O que fazer se meu site tiver sido comprometido e não for mais seguro?
+11: E se eu não achar que meu site está infectado?
+12: Como faço para denunciar um site não seguro?
+13: O que fazer se meu sistema autônomo (AS, na sigla em inglês) aparecer na lista de distribuidores de malware?
+14: Como vocês comparam um AS a outro?
+15: Vocês têm informações completas sobre um AS?
+16: Se um AS aparece em uma posição alta nas classificações, isso significa que ele está fazendo algo errado?
+17: Como mapear um host para um país/região? Qual é a relação entre um AS e um país/região?
 
 
+PERGUNTAS SOBRE A CRIPTOGRAFIA DE E-MAIL:
 
-PERGUNTAS:
+1: Por que a criptografia em trânsito é importante?
+2: Se meu e-mail for criptografado em trânsito, significa que ninguém poderá espioná-lo?
+3: O que significa criptografia de e-mail em trânsito?
+4: O TLS é a única solução para proteger meu e-mail durante o trânsito?
+5: Os e-mails dos usuários do Google são criptografados em trânsito para outros usuários do Google?
+6: Qual é a relação da criptografia em trânsito com o acesso HTTPS ao Gmail?
+7: Como a criptografia em trânsito se relaciona a outras formas de criptografia de e-mails, como a PGP?
+8: Por que nem todos os e-mails enviados ou recebidos do Gmail são criptografados em trânsito?
+9: O que está sendo considerado neste relatório?
+10: O que significa "De X via Y"?
 
-1: Como está o contexto de segurança cibernética na Bahia?
-2: Que tipos de senhas são consideradas fortes na Bahia?
+
+PERGUNTAS SOBRE HTTPS:
+
+1: O que é criptografia?
+2: O que é HTTPS?
+3: Por que preciso usar HTTPS?
+4: Qual é o objetivo do Google com HTTPS?
+5: Por que a criptografia é importante?
+6: Quais são os tipos de criptografia?
+7: Quais protocolos estão incluídos nestes gráficos?
+8: Quais protocolos são considerados criptografados?
+9: Onde posso encontrar dados sobre outros protocolos?
+10: O Google tem dados precisos anteriores a dezembro de 2013?
+11: Como vocês medem os dados de uso de HTTPS?
+12: Por que estes 10 países/regiões são escolhidos para as estatísticas de uso de HTTPS?
+13: O que significa "O site funciona com HTTPS"?
+14: O que significa "Configuração moderna de TLS"?
+15: O que significa "HTTPS padrão"?
+16: Quais são as fontes de dados?
+17: A lista está organizada de acordo com a popularidade?
+18: Sou proprietário de um site da lista e preciso de auxílio na mudança para HTTPS: O Google pode ajudar?
+
+
+PERGUNTAS FREQUENTES SOBRE A SEGURANÇA DO ECOSSISTEMA ANDROID:
+
+1: Com que frequência os dados do Transparency Report do Android serão atualizados?
+2: Como interpretar esses dados?
+3: O que é o Google Play Protect?
+4: O que significa o termo "transferido por sideload"?
+5: Como o Google define um aplicativo potencialmente nocivo (PHA, na sigla em inglês)?
+6: Por que o Google usa o termo "aplicativos potencialmente nocivos" em vez de "malware"?
+7: Como o Google determina que um app é potencialmente nocivo?
+8: Como o Google Play Protect funciona?
+9: O que o Google Play Protect faz ao detectar um app potencialmente nocivo?
+10: Como desativar o Google Play Protect?
+11: Com que frequência o Google Play Protect verifica o dispositivo em busca de apps potencialmente nocivos?
+12: Como o usuário pode saber quando o dispositivo foi verificado pela última vez?
+13: Sou um desenvolvedor: E se eu não concordar que meu app é potencialmente nocivo?
+14: Onde posso encontrar mais informações sobre o Android Security?
+15: Por que alguns gráficos são representados de maneira diferente?
+16: O que é considerado um dispositivo do Enterprise?
+17: Que recursos empresariais ajudam a proteger contra aplicativos potencialmente nocivos (PHAs)?
+
+
+PERGUNTAS SOBRE SOLICITAÇÕES DE INFORMAÇOES DE USUARIOS:
+
+1: Como o Google lida com solicitações governamentais de informações de usuários?
+2: O Google informará o proprietário da conta se receber uma solicitação de informações desse usuário?
+3: O Google permite que os governos tenham acesso direto às informações de usuários?
+4: O Google vende informações pessoais aos governos?
+5: Como os órgãos governamentais enviam solicitações oficiais ao Google?
+6: E se eu quiser fornecer informações da minha Conta do Google a um órgão governamental?
+7: Quais tipos de informação vocês revelam, de acordo com diferentes produtos?
+8: O Google responde a solicitações oficiais relacionadas ao aborto?
+9: Relatório de Transparência sobre solicitações de informações de usuários
+10: O que é uma solicitação governamental de informações de usuários?
+11: O que é uma solicitação de divulgação de emergência?
+12: O que é um pedido de preservação? Eles estão incluídos no número total de solicitações?
+13: Os dados exibidos no Relatório de Transparência são completos?
+14: Por que alguns dos períodos de relatório mais antigos têm menos dados do que os mais novos?
+15: O número de contas é uma contagem abrangente do total de indivíduos envolvidos em solicitações governamentais de informações?
+16: Como é calculada a porcentagem de solicitações atendidas?
+17: O que é um tratado de assistência jurídica mútua (MLAT)?
+
+
+PERGUNTAS FREQUENTES:
+
+1: Software antimalware e antivírus:
+2: Qual é a diferença entre a verificação completa e a verificação rápida?
+3: Ao executar uma verificação completa, meu computador congela ou trava
+4: O que significa quando uma ameaça é "parcialmente removida"?
+5: Devo executar o software de segurança da Microsoft simultaneamente com outros produtos de segurança?
+6: Como fazer desativar, desativar ou ativar Microsoft Defender Antivírus?
+7: O que é Microsoft Defender para o Ponto Final?
+8: Como faço para atualizar o software de segurança da Microsoft?
+9: O que deverei fazer se meu software de segurança detectar uma ameaça?
+10: Devo remover, colocar em quarentena ou permitir uma ameaça?
+11: Como devo examinar um arquivo em quarentena?
+12: O que significam os níveis de alerta?
+13: Como verificar uma unidade removível, como um pen drive?
+14: Como faço para eliminar os avisos sobre os arquivos que sei que são seguros?
+15: O que são "definições"?
+16: Onde posso ver o log de alterações, que é uma lista das atualizações mais recentes?
+17: Não consigo atualizar o software de segurança
+18: Onde posso obter mais ajuda sobre infecções de malware e vírus?
